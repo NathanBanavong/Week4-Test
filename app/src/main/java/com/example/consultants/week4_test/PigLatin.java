@@ -45,9 +45,6 @@ public class PigLatin {
                     || charList[i] != 'o'
                     || charList[i] != 'u') {
                 addCharacter(charList[i]);
-//                Node newNode = new Node(charList[i]);
-//                newNode.next = end;
-//                end.next = null;
             }else {
                 if (begin == null) {
                     Node newNode = new Node(charList[i]);
